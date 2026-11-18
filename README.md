@@ -16,7 +16,7 @@
 <div align="center">
   <a href="voprosy_metodologii_1991_1/0000.jpg"><img src="voprosy_metodologii_1991_1/0000.jpg" width="360" alt="Обложка №1, 1991"></a>
   <br><br>
-  <a href="#concept">Концепция</a> · <a href="#features">Возможности</a> · <a href="#quick-start">Быстрый старт</a> · <a href="#catalog">Каталог</a> · <a href="#tech-stack">Состав</a> · <a href="#license">Лицензия</a>
+  <a href="#concept">Концепция</a> · <a href="#features">Возможности</a> · <a href="#quick-start">Быстрый старт</a> · <a href="#catalog">Каталог</a> · <a href="#tech-stack">Состав</a> · <a href="#license">Лицензия</a> · <a href="#acknowledgements">Благодарности</a>
 </div>
 
 ---
@@ -198,3 +198,10 @@ Fork → `fix/описание-правки` → Pull Request.
 [Maxim Osovsky](https://www.linkedin.com/in/osovsky/). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 > Архив журнала. Авторские права на оригинальные тексты принадлежат их авторам. Оцифровка и подготовка архива — Maxim Osovsky.
+
+---
+
+<a id="acknowledgements"></a>
+## 🙏 Благодарности
+
+Глубокая признательность В. М. Бусеву, основателю [Электронной библиотеки «Математическое образование»](https://www.mathedu.ru/) (2018), за неоценимую помощь в сканировании, распознавании текстов, размещении и поддержке проекта.
