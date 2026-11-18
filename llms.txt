@@ -9,7 +9,46 @@ Archive of the journal founded by G. P. Shchedrovitsky, published by the Moscow 
 - Author: [Maxim Osovsky](https://www.wikidata.org/wiki/Q107189449)
 - URL: https://github.com/maximosovsky/voprosy-metodologii
 - License: CC BY-SA 4.0
+- Total articles: 201
+
+## For LLMs: How to use this archive
+
+This repository is designed to be LLM-friendly. Here is how to work with it:
+
+### 1. Search for articles by author, title, or year
+
+Use `search-index.json` — a structured catalog of all 201 articles with metadata:
+- Fields: year, issue folder, section, authors, title, pages, links to Markdown ToC and OCR text
+- Read it with: `fetch("https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/search-index.json")`
+- Filter by author, year, or keyword in title
+
+### 2. Browse a specific issue's table of contents
+
+15 Markdown files at the repo root: `voprosy_metodologii_YYYY_N.md`
+- Each lists sections, authors, titles and page numbers
+- Read any of them directly from GitHub
+
+### 3. Read full OCR text of an issue
+
+Each issue folder contains `pages.html` — machine-recognized full text:
+- Read via raw URL: `https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2/pages.html`
+- The text is HTML with `<div class="pagebox">` containers — one per page
+- Quality varies; for exact wording, refer to the scanned JPG
+
+### 4. View original scanned pages
+
+JPG files in each issue folder are named by page number (e.g. `0003.jpg` = page 3)
+- View on GitHub or via raw URL: `https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2/0003.jpg`
+
+### 5. Recommended workflow for LLM analysis
+
+1. Load `search-index.json` to discover articles by topic/author
+2. Read the relevant `.md` ToC file for context
+3. Read `pages.html` for the full text
+4. Cross-reference with JPG scans for verification
 
 ## Docs
 
-- [Full documentation](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): complete issue catalog with authors and articles
+- [search-index.json](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/search-index.json): structured catalog (201 articles)
+- [llms-full.txt](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): complete issue-by-issue catalog
+- [README.md](https://github.com/maximosovsky/voprosy-metodologii#readme): human-oriented documentation
