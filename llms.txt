@@ -9,46 +9,44 @@ Archive of the journal founded by G. P. Shchedrovitsky, published by the Moscow 
 - Author: [Maxim Osovsky](https://www.wikidata.org/wiki/Q107189449)
 - URL: https://github.com/maximosovsky/voprosy-metodologii
 - License: CC BY-SA 4.0
-- Total articles: 201
 
-## For LLMs: How to use this archive
+## Issue tables of contents (Markdown)
 
-This repository is designed to be LLM-friendly. Here is how to work with it:
+- [1991 No. 1](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_1.md)
+- [1991 No. 2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_2.md)
+- [1991 No. 3](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_3.md)
+- [1991 No. 4](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_4.md)
+- [1992 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2.md)
+- [1992 No. 3/4](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_3-4.md)
+- [1994 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1994_1-2.md)
+- [1994 No. 3/4](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1994_3-4.md)
+- [1995 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1995_1-2.md)
+- [1996 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1996_1-2.md)
+- [1996 No. 3/4](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1996_3-4.md)
+- [1997 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1997_1-2.md)
+- [1997 No. 3/4](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1997_3-4.md)
+- [1998 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1998_1-2.md)
+- [1999 No. 1/2](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1999_1-2.md)
 
-### 1. Search for articles by author, title, or year
+## OCR full texts (HTML)
 
-Use `search-index.json` — a structured catalog of all 201 articles with metadata:
-- Fields: year, issue folder, section, authors, title, pages, links to Markdown ToC and OCR text
-- Read it with: `fetch("https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/search-index.json")`
-- Filter by author, year, or keyword in title
+- [1991 No. 1 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_1/pages.html)
+- [1991 No. 2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_2/pages.html)
+- [1991 No. 3 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_3/pages.html)
+- [1991 No. 4 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1991_4/pages.html)
+- [1992 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2/pages.html)
+- [1992 No. 3/4 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_3-4/pages.html)
+- [1994 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1994_1-2/pages.html)
+- [1994 No. 3/4 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1994_3-4/pages.html)
+- [1995 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1995_1-2/pages.html)
+- [1996 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1996_1-2/pages.html)
+- [1996 No. 3/4 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1996_3-4/pages.html)
+- [1997 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1997_1-2/pages.html)
+- [1997 No. 3/4 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1997_3-4/pages.html)
+- [1998 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1998_1-2/pages.html)
+- [1999 No. 1/2 OCR](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1999_1-2/pages.html)
 
-### 2. Browse a specific issue's table of contents
+## Optional
 
-15 Markdown files at the repo root: `voprosy_metodologii_YYYY_N.md`
-- Each lists sections, authors, titles and page numbers
-- Read any of them directly from GitHub
-
-### 3. Read full OCR text of an issue
-
-Each issue folder contains `pages.html` — machine-recognized full text:
-- Read via raw URL: `https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2/pages.html`
-- The text is HTML with `<div class="pagebox">` containers — one per page
-- Quality varies; for exact wording, refer to the scanned JPG
-
-### 4. View original scanned pages
-
-JPG files in each issue folder are named by page number (e.g. `0003.jpg` = page 3)
-- View on GitHub or via raw URL: `https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/voprosy_metodologii_1992_1-2/0003.jpg`
-
-### 5. Recommended workflow for LLM analysis
-
-1. Load `search-index.json` to discover articles by topic/author
-2. Read the relevant `.md` ToC file for context
-3. Read `pages.html` for the full text
-4. Cross-reference with JPG scans for verification
-
-## Docs
-
-- [search-index.json](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/search-index.json): structured catalog (201 articles)
-- [llms-full.txt](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): complete issue-by-issue catalog
-- [README.md](https://github.com/maximosovsky/voprosy-metodologii#readme): human-oriented documentation
+- [README](https://github.com/maximosovsky/voprosy-metodologii#readme): human-oriented documentation
+- [llms-full.txt](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): complete archive — all 15 tables of contents in one file
