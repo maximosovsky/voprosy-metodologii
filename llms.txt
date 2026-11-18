@@ -1,10 +1,10 @@
-# Вопросы методологии
+# Voprosy Metodologii
 
-> Архив журнала «Вопросы методологии» (1991–1999): 15 выпусков, 2274 страницы сканов, 187 статей. OCR-тексты и содержание в Markdown.
+> A digital archive of the Russian methodological journal Voprosy Metodologii (1991–1999): 15 issues, 2,274 scanned pages, OCR texts and Markdown tables of contents.
 
 ## About
 
-Архив журнала методологического сообщества, основанного Г. П. Щедровицким. Публиковал работы Московского методологического кружка (ММК) по теории деятельности, СМД-методологии, педагогике, организационно-деятельностным играм, системному подходу и герменевтике. Охватывает период 1991–1999 (1993 год отсутствует).
+Archive of the journal founded by G. P. Shchedrovitsky, published by the Moscow Methodological Circle (MMK). Covers activity theory, SMD-methodology, pedagogy, organizational-activity games (ODI), systems approach and hermeneutics. Spanning 1991–1999 (1993 is missing).
 
 - Author: [Maxim Osovsky](https://www.wikidata.org/wiki/Q107189449)
 - URL: https://github.com/maximosovsky/voprosy-metodologii
@@ -12,4 +12,4 @@
 
 ## Docs
 
-- [Full documentation](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): полный каталог выпусков с авторами и статьями
+- [Full documentation](https://raw.githubusercontent.com/maximosovsky/voprosy-metodologii/main/llms-full.txt): complete issue catalog with authors and articles

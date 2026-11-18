@@ -1,18 +1,17 @@
-# Вопросы методологии — полный каталог архива
+# Voprosy Metodologii — Complete Archive Catalog
 
 ## Overview
 
-Архив журнала «Вопросы методологии» — печатного органа методологического сообщества, основанного Г. П. Щедровицким. Журнал выходил в 1991–1999 гг. под эгидой Комитета по системомыследеятельностной методологии и организационно-деятельностным играм Правления Союза научных и инженерных объединений (обществ) СССР, затем — журнал методологического сообщества.
+Archive of the journal Voprosy Metodologii — the print organ of the methodological community founded by G. P. Shchedrovitsky. The journal was published in 1991–1999 under the aegis of the Committee for System-Thought-Activity Methodology and Organizational-Activity Games of the Union of Scientific and Engineering Societies (USSR), later as an independent journal of the methodological community.
 
-- **Период**: 1991–1999 (1993 — не выходил)
-- **Выпусков**: 15
-- **Страниц (JPEG)**: 2274
-- **Статей**: 187
-- **Формат**: JPEG-сканы (1200×2168 px) + OCR (HTML) + содержание (MD)
+- **Period**: 1991–1999 (1993 — not published)
+- **Issues**: 15
+- **Pages (JPG)**: 2,274
+- **Articles**: 187
+- **Format**: JPEG scans (1200×2168 px) + OCR (HTML) + ToC (MD)
 - **Author**: Maxim Osovsky (https://www.wikidata.org/wiki/Q107189449)
 - **URL**: https://github.com/maximosovsky/voprosy-metodologii
 - **License**: CC BY-SA 4.0
-
 ---
 
 ## Вопросы методологии. — 1991. — № 1
@@ -563,4 +562,4 @@
 
 ## Acknowledgements
 
-Глубокая признательность В. М. Бусеву, основателю Электронной библиотеки «Математическое образование» (https://www.mathedu.ru/, 2018), за неоценимую помощь в сканировании, распознавании текстов, размещении и поддержке проекта.
+Our deep gratitude to V. M. Busev, founder of the Electronic Library "Mathematical Education" (https://www.mathedu.ru/, 2018), for invaluable help with scanning, text recognition, hosting and support of the project.

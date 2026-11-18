@@ -1,73 +1,73 @@
 <div align="center">
 
-# 📖 Вопросы методологии
+# 📖 Voprosy Metodologii
 
 ![Scan sets](https://img.shields.io/badge/Scan_sets-15-8B4513?style=for-the-badge&logo=imagej&logoColor=white)
 ![JPG files](https://img.shields.io/badge/JPG_files-2274-D2691E?style=for-the-badge&logo=files&logoColor=white)
 ![Markdown texts](https://img.shields.io/badge/Markdown_texts-15-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![Period](https://img.shields.io/badge/Period-1991%E2%80%931999-556B2F?style=for-the-badge&logo=readthedocs&logoColor=white)
 
-**Цифровой архив журнала «Вопросы методологии» (1991–1999).**
+**A digital archive of the Russian journal Voprosy Metodologii (1991–1999).**
 
 </div>
 
-> Читайте журнал как распознанный текст, сверяйтесь со сканами страниц, изучайте оглавления в Markdown.
+> Read the journal as machine-recognized text, check against the scanned pages, browse tables of contents in Markdown.
 
 <div align="center">
-  <a href="voprosy_metodologii_1991_1/0000.jpg"><img src="voprosy_metodologii_1991_1/0000.jpg" width="360" alt="Обложка №1, 1991"></a>
+  <a href="voprosy_metodologii_1991_1/0000.jpg"><img src="voprosy_metodologii_1991_1/0000.jpg" width="360" alt="Scanned cover from the 1991 No. 1 issue folder"></a>
   <br><br>
-  <a href="#concept">Концепция</a> · <a href="#features">Возможности</a> · <a href="#quick-start">Быстрый старт</a> · <a href="#catalog">Каталог</a> · <a href="#tech-stack">Состав</a> · <a href="#license">Лицензия</a> · <a href="#acknowledgements">Благодарности</a>
+  <a href="#concept">Concept</a> · <a href="#features">Features</a> · <a href="#quick-start">Quick Start</a> · <a href="#catalog">Issue Catalog</a> · <a href="#tech-stack">Tech Stack</a> · <a href="#license">License</a> · <a href="#acknowledgements">Acknowledgements</a>
 </div>
 
 ---
 
 <a id="concept"></a>
-## 💡 Концепция
+## 💡 Concept
 
-**«Вопросы методологии»** — журнал методологического сообщества, основанный Г. П. Щедровицким. Выходил под эгидой Комитета по системомыследеятельностной методологии и организационно-деятельностным играм, затем — как независимый журнал методологического сообщества. Публиковал работы Московского методологического кружка (ММК) и смежных направлений: теория деятельности, СМД-методология, педагогика, ОДИ, системный подход, герменевтика, философия хозяйства.
+**Voprosy Metodologii** (Вопросы методологии, "Questions of Methodology") is a Russian-language methodological journal founded by Georgy Petrovich Shchedrovitsky. It was published under the aegis of the Committee for System-Thought-Activity Methodology and Organizational-Activity Games of the Union of Scientific and Engineering Societies (USSR), later as an independent journal of the methodological community. It published works of the Moscow Methodological Circle (MMK) and related fields: activity theory, SMD-methodology, pedagogy, organizational-activity games (ODI), systems approach, hermeneutics, and philosophy of economy.
 
-Архив предназначен для читателей и исследователей, которым нужен и распознанный текст, и облик печатного источника.
+This archive is for readers and researchers who need both machine-recognized text and the appearance of the printed source.
 
 > [!NOTE]
-> Репозиторий содержит **15 папок со сканами**, **2274 JPG-файла**, **15 оглавлений в Markdown** и **15 OCR-текстов в HTML**. Охвачены годы 1991–1999 (1993 отсутствует).
+> The repository contains **15 issue scan folders**, **2,274 JPG files**, **15 Markdown tables of contents** and **15 OCR texts in HTML**, covering the years 1991–1999 (1993 is missing).
 
 ---
 
 <a id="features"></a>
-## ✨ Возможности
+## ✨ Features
 
-| Возможность | Описание |
-|-------------|----------|
-| Оригинальные сканы | Пронумерованные JPG-файлы сохраняют печатные страницы, обложки и иллюстрации. |
-| OCR-тексты | `pages.html` в каждой папке выпуска — полный распознанный текст. |
-| Оглавления в Markdown | По одному `.md`-файлу на выпуск в корне репозитория: рубрики, авторы, названия, страницы. |
-| Метаданные выпуска | `meta.html` содержит структурированное содержание и выходные данные. |
-| Хронологический каталог | Прямые ссылки на каждую папку сканов и каждое оглавление, с числом JPG-файлов. |
-| Документация для LLM | `llms.txt` — короткая карточка проекта; `llms-full.txt` — полный каталог всех выпусков с авторами и статьями. |
+| Feature | Description |
+|---------|-------------|
+| Original page images | Numbered JPG files preserve printed pages, covers and illustrations. |
+| OCR texts | `pages.html` in each issue folder — full machine-recognized text. |
+| Markdown tables of contents | One `.md` file per issue at the repo root: sections, authors, titles, page numbers. |
+| Issue metadata | `meta.html` contains structured table of contents and imprint data. |
+| Chronological catalog | Direct links to every scan folder and every table of contents, with JPG file counts. |
+| LLM-readable documentation | `llms.txt` provides a short project card; `llms-full.txt` provides the full archive catalog with authors and articles. |
 
 <details>
-<summary>📚 Примеры из архива</summary>
+<summary>📚 Examples from the archive</summary>
 
-| Выпуск | Примеры содержания |
-|--------|---------------------|
-| [1991 № 3](voprosy_metodologii_1991_3.md) | Г. П. Щедровицкий — «Мышление по схемам многих знаний»; И. С. Ладенко — «Становление и развитие идей генетической логики»; С. Л. Франк — «Очерк методологии общественных наук». |
-| [1992 № 1/2](voprosy_metodologii_1992_1-2.md) | Г. П. Щедровицкий — «Естественное и искусственное в социотехнических системах»; С. В. Наумов — «Представления о программах и программировании». |
-| [1994 № 3/4](voprosy_metodologii_1994_3-4.md) | Номер памяти Г. П. Щедровицкого: статьи Ю. В. Громыко, О. И. Генисаретского, В. М. Розина и др. |
-| [1996 № 3/4](voprosy_metodologii_1996_3-4.md) | О. И. Генисаретский — «Навигатор: методологические продолжения»; В. Л. Глазычев — «Культурная политика». |
-| [1999 № 1/2](voprosy_metodologii_1999_1-2.md) | В. Г. Богин — «Несколько аспектов проблемы школьного образования»; Г. П. Щедровицкий — «Судьба вторничного семинара». |
+| Issue | Examples from its contents |
+|-------|----------------------------|
+| [1991 No. 3](voprosy_metodologii_1991_3.md) | G. P. Shchedrovitsky — "Thinking through schemas of multiple knowledges"; I. S. Ladenko — "Formation and development of genetic logic ideas"; S. L. Frank — "An outline of the methodology of social sciences". |
+| [1992 No. 1/2](voprosy_metodologii_1992_1-2.md) | G. P. Shchedrovitsky — "The natural and the artificial in socio-technical systems"; S. V. Naumov — "Conceptions of programs and programming in the context of methodological work". |
+| [1994 No. 3/4](voprosy_metodologii_1994_3-4.md) | An issue dedicated to the memory of G. P. Shchedrovitsky: articles by Yu. V. Gromyko, O. I. Genisaretsky, V. M. Rozin and others. |
+| [1996 No. 3/4](voprosy_metodologii_1996_3-4.md) | O. I. Genisaretsky — "Navigator: methodological extensions"; V. L. Glazychev — "Cultural policy". |
+| [1999 No. 1/2](voprosy_metodologii_1999_1-2.md) | V. G. Bogin — "Several aspects of the problem of school education"; G. P. Shchedrovitsky — "The fate of the Tuesday seminar". |
 
-Описания передают содержание источников, а не добавленные интерпретации.
+These examples describe the source contents, not newly added interpretations or English translations.
 
 </details>
 
 ---
 
 <a id="quick-start"></a>
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 
-**Читать на GitHub:** откройте [1991 № 3 в Markdown](voprosy_metodologii_1991_3.md) или просмотрите [папку сканов](voprosy_metodologii_1991_3/). [Каталог ниже](#catalog) содержит ссылки на весь архив.
+**Read on GitHub:** open [1991 No. 3 in Markdown](voprosy_metodologii_1991_3.md) or browse its [scan folder](voprosy_metodologii_1991_3/). The [catalog below](#catalog) links to the rest of the archive.
 
-**Скачать только текст и оглавления через Git:**
+**Download the text and ToC collection with Git:**
 
 ```bash
 git clone --depth=1 --filter=blob:none --sparse https://github.com/maximosovsky/voprosy-metodologii.git
@@ -75,98 +75,98 @@ cd voprosy-metodologii
 git sparse-checkout set '*.md' '*.html' llms.txt llms-full.txt
 ```
 
-Откройте `.md`-файл в любом редакторе Markdown. `pages.html` открывается в браузере.
+Open a `.md` file with a Markdown viewer or text editor. `pages.html` opens in a browser.
 
 <details>
-<summary>🖼️ Включить сканы или скачать весь архив</summary>
+<summary>🖼️ Include scans or download the entire archive</summary>
 
-Чтобы добавить сканы конкретного выпуска в sparse checkout:
+To include a specific issue's scans in a sparse checkout:
 
 ```bash
 git sparse-checkout set '*.md' '*.html' llms.txt llms-full.txt voprosy_metodologii_1991_1
 ```
 
-Чтобы расширить существующий sparse checkout до всех файлов:
+To expand an existing sparse checkout to all files:
 
 ```bash
 git sparse-checkout disable
 ```
 
-Полный клон:
+A conventional full clone is also possible:
 
 ```bash
 git clone https://github.com/maximosovsky/voprosy-metodologii.git
 ```
 
-Загрузка всех сканов передаёт значительно больше данных (~2 GB).
+Downloading all scans transfers substantially more data (~2 GB).
 
 </details>
 
 > [!TIP]
-> Ищите по `pages.html` в текстовом редакторе, чтобы находить имена и понятия. Сверяйте важные цитаты с соответствующим сканом — номера страниц в `meta.html` и `.md`-оглавлениях соответствуют номерам JPG-файлов.
+> Search across `pages.html` in a text editor to find names or concepts. Check important quotations against the corresponding scan — page numbers in `meta.html` and the `.md` tables of contents match JPG filenames.
 
 ---
 
 <a id="catalog"></a>
-## 🗂️ Каталог выпусков
+## 🗂️ Issue Catalog
 
-Названия выпусков следуют именам папок. JPG-файл может быть обложкой, печатной страницей или вложением; последний столбец не является подсчётом печатных страниц.
+Issue names follow the folder names exactly. A JPG file may be a cover, a printed page or an additional image; the last column is not a printed-page count.
 
 <details>
-<summary>📑 Все 15 выпусков · 15 оглавлений · 2274 JPG-файла</summary>
+<summary>📑 All 15 scan sets · 15 ToCs · 2,274 JPG files</summary>
 
-| Год | Выпуск | Сканы | Оглавление | JPG |
-|-----|--------|-------|------------|-----|
-| 1991 | № 1 | [Сканы](voprosy_metodologii_1991_1/) | [Читать](voprosy_metodologii_1991_1.md) | 114 |
-| 1991 | № 2 | [Сканы](voprosy_metodologii_1991_2/) | [Читать](voprosy_metodologii_1991_2.md) | 114 |
-| 1991 | № 3 | [Сканы](voprosy_metodologii_1991_3/) | [Читать](voprosy_metodologii_1991_3.md) | 118 |
-| 1991 | № 4 | [Сканы](voprosy_metodologii_1991_4/) | [Читать](voprosy_metodologii_1991_4.md) | 114 |
-| 1992 | № 1/2 | [Сканы](voprosy_metodologii_1992_1-2/) | [Читать](voprosy_metodologii_1992_1-2.md) | 178 |
-| 1992 | № 3/4 | [Сканы](voprosy_metodologii_1992_3-4/) | [Читать](voprosy_metodologii_1992_3-4.md) | 162 |
-| 1994 | № 1/2 | [Сканы](voprosy_metodologii_1994_1-2/) | [Читать](voprosy_metodologii_1994_1-2.md) | 162 |
-| 1994 | № 3/4 | [Сканы](voprosy_metodologii_1994_3-4/) | [Читать](voprosy_metodologii_1994_3-4.md) | 178 |
-| 1995 | № 1/2 | [Сканы](voprosy_metodologii_1995_1-2/) | [Читать](voprosy_metodologii_1995_1-2.md) | 130 |
-| 1996 | № 1/2 | [Сканы](voprosy_metodologii_1996_1-2/) | [Читать](voprosy_metodologii_1996_1-2.md) | 130 |
-| 1996 | № 3/4 | [Сканы](voprosy_metodologii_1996_3-4/) | [Читать](voprosy_metodologii_1996_3-4.md) | 178 |
-| 1997 | № 1/2 | [Сканы](voprosy_metodologii_1997_1-2/) | [Читать](voprosy_metodologii_1997_1-2.md) | 162 |
-| 1997 | № 3/4 | [Сканы](voprosy_metodologii_1997_3-4/) | [Читать](voprosy_metodologii_1997_3-4.md) | 178 |
-| 1998 | № 1/2 | [Сканы](voprosy_metodologii_1998_1-2/) | [Читать](voprosy_metodologii_1998_1-2.md) | 178 |
-| 1999 | № 1/2 | [Сканы](voprosy_metodologii_1999_1-2/) | [Читать](voprosy_metodologii_1999_1-2.md) | 178 |
+| Year | Issue | Scans | ToC | JPG |
+|------|-------|-------|-----|-----|
+| 1991 | No. 1 | [Scans](voprosy_metodologii_1991_1/) | [Read](voprosy_metodologii_1991_1.md) | 114 |
+| 1991 | No. 2 | [Scans](voprosy_metodologii_1991_2/) | [Read](voprosy_metodologii_1991_2.md) | 114 |
+| 1991 | No. 3 | [Scans](voprosy_metodologii_1991_3/) | [Read](voprosy_metodologii_1991_3.md) | 118 |
+| 1991 | No. 4 | [Scans](voprosy_metodologii_1991_4/) | [Read](voprosy_metodologii_1991_4.md) | 114 |
+| 1992 | No. 1/2 | [Scans](voprosy_metodologii_1992_1-2/) | [Read](voprosy_metodologii_1992_1-2.md) | 178 |
+| 1992 | No. 3/4 | [Scans](voprosy_metodologii_1992_3-4/) | [Read](voprosy_metodologii_1992_3-4.md) | 162 |
+| 1994 | No. 1/2 | [Scans](voprosy_metodologii_1994_1-2/) | [Read](voprosy_metodologii_1994_1-2.md) | 162 |
+| 1994 | No. 3/4 | [Scans](voprosy_metodologii_1994_3-4/) | [Read](voprosy_metodologii_1994_3-4.md) | 178 |
+| 1995 | No. 1/2 | [Scans](voprosy_metodologii_1995_1-2/) | [Read](voprosy_metodologii_1995_1-2.md) | 130 |
+| 1996 | No. 1/2 | [Scans](voprosy_metodologii_1996_1-2/) | [Read](voprosy_metodologii_1996_1-2.md) | 130 |
+| 1996 | No. 3/4 | [Scans](voprosy_metodologii_1996_3-4/) | [Read](voprosy_metodologii_1996_3-4.md) | 178 |
+| 1997 | No. 1/2 | [Scans](voprosy_metodologii_1997_1-2/) | [Read](voprosy_metodologii_1997_1-2.md) | 162 |
+| 1997 | No. 3/4 | [Scans](voprosy_metodologii_1997_3-4/) | [Read](voprosy_metodologii_1997_3-4.md) | 178 |
+| 1998 | No. 1/2 | [Scans](voprosy_metodologii_1998_1-2/) | [Read](voprosy_metodologii_1998_1-2.md) | 178 |
+| 1999 | No. 1/2 | [Scans](voprosy_metodologii_1999_1-2/) | [Read](voprosy_metodologii_1999_1-2.md) | 178 |
 
 </details>
 
 > [!NOTE]
-> 1993 год отсутствует — в этот год журнал не выходил.
+> 1993 is missing — the journal was not published that year.
 
 ---
 
 <a id="tech-stack"></a>
-## 🏗️ Состав архива
+## 🏗️ Tech Stack
 
-| Компонент | Технология |
+| Component | Technology |
 |-----------|------------|
-| Сканы | JPEG (1200×2168 px) |
-| Метаданные | HTML (`meta.html` — структурированное содержание) |
-| OCR-тексты | HTML (`pages.html` — распознанный текст по страницам) |
-| Оглавления | Markdown (`.md` в корне — рубрики, авторы, страницы) |
-| Хранение и история | Git / GitHub |
-| Чтение | GitHub, редактор Markdown, браузер |
+| Scans | JPEG (1200×2168 px) |
+| Metadata | HTML (`meta.html` — structured table of contents) |
+| OCR texts | HTML (`pages.html` — recognized text by page) |
+| Tables of contents | Markdown (`.md` at root — sections, authors, pages) |
+| Storage and history | Git / GitHub |
+| Reading | GitHub, Markdown viewer, browser |
 
 <details>
-<summary>📁 Структура репозитория</summary>
+<summary>📁 Repository structure</summary>
 
 ```text
 voprosy-metodologii/
-├── voprosy_metodologii_1991_1/     # Сканы и OCR
+├── voprosy_metodologii_1991_1/     # Scans and OCR
 │   ├── 0000.jpg … 0113.jpg         (114 JPG)
-│   ├── meta.html                   (оглавление)
-│   └── pages.html                  (OCR-текст)
+│   ├── meta.html                   (table of contents)
+│   └── pages.html                  (OCR text)
 ├── voprosy_metodologii_1991_2/
 │   └── …
 ├── …
 ├── voprosy_metodologii_1999_1-2/
 │   └── …
-├── voprosy_metodologii_1991_1.md   # Оглавление в Markdown
+├── voprosy_metodologii_1991_1.md   # Table of contents in Markdown
 ├── voprosy_metodologii_1991_2.md
 ├── …
 ├── voprosy_metodologii_1999_1-2.md
@@ -176,32 +176,32 @@ voprosy-metodologii/
 └── LICENSE
 ```
 
-- Номера JPG-файлов соответствуют номерам страниц в `meta.html` и `.md`-оглавлениях.
-- `pages.html` содержит полный OCR-текст выпуска; качество распознавания зависит от источника.
+- JPG filenames correspond to page numbers in `meta.html` and `.md` tables of contents.
+- `pages.html` contains the full OCR text of the issue; recognition quality depends on the source.
 
 </details>
 
 ---
 
 <a id="contributing"></a>
-## 🤝 Участие
+## 🤝 Contributing
 
-Fork → `fix/описание-правки` → Pull Request.
+Fork → `fix/issue-description` → Pull Request.
 
-Для текстовой правки укажите выпуск, номер страницы и соответствующий скан. При добавлении пропущенного выпуска приложите информацию о происхождении и обновите каталог и оба LLM-файла.
+For a text correction, identify the issue, the page number and the corresponding scan. If a missing issue is supplied, include its provenance and update the catalog and both LLM reference files.
 
 ---
 
 <a id="license"></a>
-## 📄 Лицензия
+## 📄 License
 
 [Maxim Osovsky](https://www.linkedin.com/in/osovsky/). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-> Архив журнала. Авторские права на оригинальные тексты принадлежат их авторам. Оцифровка и подготовка архива — Maxim Osovsky.
+> Archive of the journal. Copyright in the original texts belongs to their authors. Scanning and preparation of the archive — Maxim Osovsky.
 
 ---
 
 <a id="acknowledgements"></a>
-## 🙏 Благодарности
+## 🙏 Acknowledgements
 
-Глубокая признательность В. М. Бусеву, основателю [Электронной библиотеки «Математическое образование»](https://www.mathedu.ru/) (2018), за неоценимую помощь в сканировании, распознавании текстов, размещении и поддержке проекта.
+Our deep gratitude to V. M. Busev, founder of the [Electronic Library "Mathematical Education"](https://www.mathedu.ru/) (2018), for invaluable help with scanning, text recognition, hosting and support of the project.
