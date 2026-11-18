@@ -14,7 +14,7 @@
 > Read the journal as machine-recognized text, check against the scanned pages, browse tables of contents in Markdown.
 
 <div align="center">
-  <a href="voprosy_metodologii_1991_1/0000.jpg"><img src="voprosy_metodologii_1991_1/0000.jpg" width="360" alt="Scanned cover from the 1991 No. 1 issue folder"></a>
+  <a href="voprosy_metodologii_1991_1/vm_1991_1-0000.jpg"><img src="voprosy_metodologii_1991_1/vm_1991_1-0000.jpg" width="360" alt="Scanned cover from the 1991 No. 1 issue folder"></a>
   <br><br>
   <a href="#concept">Concept</a> · <a href="#features">Features</a> · <a href="#quick-start">Quick Start</a> · <a href="#catalog">Issue Catalog</a> · <a href="#tech-stack">Tech Stack</a> · <a href="#license">License</a> · <a href="#acknowledgements">Acknowledgements</a>
 </div>
@@ -158,7 +158,7 @@ Issue names follow the folder names exactly. A JPG file may be a cover, a printe
 ```text
 voprosy-metodologii/
 ├── voprosy_metodologii_1991_1/     # Scans and OCR
-│   ├── 0000.jpg … 0113.jpg         (114 JPG)
+│   ├── vm_1991_1-0000.jpg … vm_1991_1-0113.jpg         (114 JPG)
 │   ├── meta.html                   (table of contents)
 │   └── pages.html                  (OCR text)
 ├── voprosy_metodologii_1991_2/
